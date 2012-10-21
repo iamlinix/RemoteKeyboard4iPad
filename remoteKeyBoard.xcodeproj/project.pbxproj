@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC56E311633D8AF0062515B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC56E301633D8AF0062515B /* UIKit.framework */; };
+		9DC56E331633D8AF0062515B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC56E321633D8AF0062515B /* Foundation.framework */; };
+		9DC56E351633D8AF0062515B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC56E341633D8AF0062515B /* CoreGraphics.framework */; };
+		9DC56E3B1633D8AF0062515B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DC56E391633D8AF0062515B /* InfoPlist.strings */; };
+		9DC56E3D1633D8AF0062515B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC56E3C1633D8AF0062515B /* main.m */; };
+		9DC56E411633D8AF0062515B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC56E401633D8AF0062515B /* AppDelegate.m */; };
+		9DC56E441633D8AF0062515B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC56E431633D8AF0062515B /* ViewController.m */; };
+		9DC56E471633D8AF0062515B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC56E451633D8AF0062515B /* ViewController_iPhone.xib */; };
+		9DC56E4A1633D8AF0062515B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC56E481633D8AF0062515B /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DC56E2C1633D8AF0062515B /* remoteKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remoteKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC56E301633D8AF0062515B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DC56E321633D8AF0062515B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DC56E341633D8AF0062515B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DC56E381633D8AF0062515B /* remoteKeyBoard-Info.plist */ = {isa = PBXFileReference; path = "remoteKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		9DC56E3A1633D8AF0062515B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DC56E3C1633D8AF0062515B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DC56E3E1633D8AF0062515B /* remoteKeyBoard-Prefix.pch */ = {isa = PBXFileReference; path = "remoteKeyBoard-Prefix.pch"; sourceTree = "<group>"; };
+		9DC56E3F1633D8AF0062515B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DC56E401633D8AF0062515B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DC56E421633D8AF0062515B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9DC56E431633D8AF0062515B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DC56E461633D8AF0062515B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9DC56E491633D8AF0062515B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC56E291633D8AF0062515B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC56E311633D8AF0062515B /* UIKit.framework in Frameworks */,
+				9DC56E331633D8AF0062515B /* Foundation.framework in Frameworks */,
+				9DC56E351633D8AF0062515B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC56E211633D8AF0062515B = {
+			isa = PBXGroup;
+			children = (
+				9DC56E361633D8AF0062515B /* remoteKeyBoard */,
+				9DC56E2F1633D8AF0062515B /* Frameworks */,
+				9DC56E2D1633D8AF0062515B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC56E2D1633D8AF0062515B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC56E2C1633D8AF0062515B /* remoteKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC56E2F1633D8AF0062515B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC56E301633D8AF0062515B /* UIKit.framework */,
+				9DC56E321633D8AF0062515B /* Foundation.framework */,
+				9DC56E341633D8AF0062515B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DC56E361633D8AF0062515B /* remoteKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9DC56E3F1633D8AF0062515B /* AppDelegate.h */,
+				9DC56E401633D8AF0062515B /* AppDelegate.m */,
+				9DC56E421633D8AF0062515B /* ViewController.h */,
+				9DC56E431633D8AF0062515B /* ViewController.m */,
+				9DC56E451633D8AF0062515B /* ViewController_iPhone.xib */,
+				9DC56E481633D8AF0062515B /* ViewController_iPad.xib */,
+				9DC56E371633D8AF0062515B /* Supporting Files */,
+			);
+			path = remoteKeyBoard;
+			sourceTree = "<group>";
+		};
+		9DC56E371633D8AF0062515B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC56E381633D8AF0062515B /* remoteKeyBoard-Info.plist */,
+				9DC56E391633D8AF0062515B /* InfoPlist.strings */,
+				9DC56E3C1633D8AF0062515B /* main.m */,
+				9DC56E3E1633D8AF0062515B /* remoteKeyBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC56E2B1633D8AF0062515B /* remoteKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC56E4D1633D8AF0062515B /* Build configuration list for PBXNativeTarget "remoteKeyBoard" */;
+			buildPhases = (
+				9DC56E281633D8AF0062515B /* Sources */,
+				9DC56E291633D8AF0062515B /* Frameworks */,
+				9DC56E2A1633D8AF0062515B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = remoteKeyBoard;
+			productName = remoteKeyBoard;
+			productReference = 9DC56E2C1633D8AF0062515B /* remoteKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC56E231633D8AF0062515B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9DC56E261633D8AF0062515B /* Build configuration list for PBXProject "remoteKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DC56E211633D8AF0062515B;
+			productRefGroup = 9DC56E2D1633D8AF0062515B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC56E2B1633D8AF0062515B /* remoteKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC56E2A1633D8AF0062515B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC56E3B1633D8AF0062515B /* InfoPlist.strings in Resources */,
+				9DC56E471633D8AF0062515B /* ViewController_iPhone.xib in Resources */,
+				9DC56E4A1633D8AF0062515B /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC56E281633D8AF0062515B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC56E3D1633D8AF0062515B /* main.m in Sources */,
+				9DC56E411633D8AF0062515B /* AppDelegate.m in Sources */,
+				9DC56E441633D8AF0062515B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DC56E391633D8AF0062515B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC56E3A1633D8AF0062515B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DC56E451633D8AF0062515B /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC56E461633D8AF0062515B /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9DC56E481633D8AF0062515B /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC56E491633D8AF0062515B /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC56E4B1633D8AF0062515B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC56E4C1633D8AF0062515B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC56E4E1633D8AF0062515B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remoteKeyBoard/remoteKeyBoard-Prefix.pch";
+				INFOPLIST_FILE = "remoteKeyBoard/remoteKeyBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DC56E4F1633D8AF0062515B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remoteKeyBoard/remoteKeyBoard-Prefix.pch";
+				INFOPLIST_FILE = "remoteKeyBoard/remoteKeyBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC56E261633D8AF0062515B /* Build configuration list for PBXProject "remoteKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC56E4B1633D8AF0062515B /* Debug */,
+				9DC56E4C1633D8AF0062515B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC56E4D1633D8AF0062515B /* Build configuration list for PBXNativeTarget "remoteKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC56E4E1633D8AF0062515B /* Debug */,
+				9DC56E4F1633D8AF0062515B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC56E231633D8AF0062515B /* Project object */;
+}
