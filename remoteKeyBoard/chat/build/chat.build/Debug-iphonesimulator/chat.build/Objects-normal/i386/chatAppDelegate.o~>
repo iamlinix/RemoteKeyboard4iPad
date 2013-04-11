@@ -1,0 +1,2 @@
+/testcode/chat/Classes/chatAppDelegate.m:67: warning: incomplete implementation of class 'chatAppDelegate'
+/testcode/chat/Classes/chatAppDelegate.m:67: warning: method definition for '-PresentLoginModule' not found

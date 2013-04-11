@@ -1,0 +1,10 @@
+/testcode/chat/Communicator.m: In function '-[Communicator StartCommunication]':
+/testcode/chat/Communicator.m:50: warning: passing argument 3 of 'connectToHost:onPort:error:' from incompatible pointer type
+/testcode/chat/Communicator.m: In function '-[Communicator onUdpSocket:didReceiveData:withTag:fromHost:port:]':
+/testcode/chat/Communicator.m:88: warning: control reaches end of non-void function
+/testcode/chat/Communicator.m: In function '-[Communicator onSocket:wantsRunLoopForNewSocket:]':
+/testcode/chat/Communicator.m:121: warning: control reaches end of non-void function
+/testcode/chat/Communicator.m: In function '-[Communicator onSocket:shouldTimeoutReadWithTag:elapsed:bytesDone:]':
+/testcode/chat/Communicator.m:144: warning: control reaches end of non-void function
+/testcode/chat/Communicator.m: In function '-[Communicator onSocket:shouldTimeoutWriteWithTag:elapsed:bytesDone:]':
+/testcode/chat/Communicator.m:152: warning: control reaches end of non-void function
